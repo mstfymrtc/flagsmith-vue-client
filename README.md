@@ -1,8 +1,7 @@
 # Flagsmith Vue Client
 
-![Build](https://github.com/crishellco/vue-unleash/workflows/Build/badge.svg)
-[![codecov](https://codecov.io/gh/crishellco/vue-unleash/branch/master/graph/badge.svg?token=KSe1Aim7Mx)](https://codecov.io/gh/crishellco/vue-unleash)
-[![Maintainability](https://api.codeclimate.com/v1/badges/2a6e74587ac474c5f0d5/maintainability)](https://codeclimate.com/github/crishellco/vue-unleash/maintainability)
+![Build](https://github.com/mstfymrtc/flagsmith-vue-client/workflows/Build/badge.svg)
+[![codecov](https://codecov.io/gh/mstfymrtc/flagsmith-vue-client/branch/master/graph/badge.svg?token=EXCIIF1CPK)](https://codecov.io/gh/mstfymrtc/flagsmith-vue-client)
 
 A Vue client for [Flagsmith](https://flagsmith.com/).
 
