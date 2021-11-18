@@ -7,14 +7,11 @@ const moduleFactory = ({ host, environmentId }) => ({
       commit('setLoading', true);
 
       try {
-        const { data } = await axios.get(
-          `${host}/api/v1/flags`,
-          {
-            headers: {
-              'X-Environment-Key': environmentId,
-            }
+        const { data } = await axios.get(`${host}/api/v1/flags`, {
+          headers: {
+            'X-Environment-Key': environmentId
           }
-        );
+        });
 
         commit('setFeatureFlags', data);
       } catch (e) {
