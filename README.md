@@ -36,7 +36,7 @@ Vue.use(VueFlagsmith, {
   // Required, environment id
   environmentId: 'my-vue-app-1',
 
-  // Optional, Unleash instance host (defaults to https://api.flagsmith.com)
+  // Optional, Flagsmith API host (defaults to https://api.flagsmith.com)
   host: 'https://api.flagsmith.com',
 
   // Required
