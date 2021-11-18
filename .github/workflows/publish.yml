@@ -1,7 +1,7 @@
 name: Publish
 
 on:
-  workflow_run:
+  workflow_dispatch:
     workflows: ['Build']
     branches:
       - master
