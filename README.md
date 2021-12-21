@@ -85,6 +85,12 @@ yarn test
 yarn build
 ```
 
+## TODO
+
+1. Add featureFlags getter for store
+2. Add functionality for if-else conditinal rendering (if flag is enabled render x, else render y)
+
+
 ## How to Contribute
 
 ### Pull Requests
