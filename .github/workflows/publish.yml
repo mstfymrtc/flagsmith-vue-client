@@ -2,6 +2,11 @@ name: Publish
 
 on:
   workflow_dispatch:
+    workflows: ['Build']
+    branches:
+      - master
+    types:
+      - completed
 
 jobs:
   publish:
