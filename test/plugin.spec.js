@@ -56,7 +56,7 @@ describe('module.js', () => {
       expect(store.state.flagsmith.featureFlags).toEqual({
         'banner-visible': disabledFixture[0].enabled
       });
-      expect(axiosGetMock.mock.calls[0][0]).toBe(`${host}/api/v1/flags`);
+      expect(axiosGetMock.mock.calls[0][0]).toBe(`${host}/api/v1/flags/`);
       done();
     }, 500);
   });
